@@ -1,248 +1,816 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>FrankGu's Blog</title><meta name="author" content="Frank"><meta name="copyright" content="Frank"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>FrankGu&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="FrankGu&#39;s Blog">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="FrankGu&#39;s Blog">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/img/avatar.jpg">
 <meta property="article:author" content="Frank">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"/search.xml","languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
-  translate: undefined,
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
-  copy: {
-    success: 'Copy successfully',
-    error: 'Copy error',
-    noSupport: 'The browser does not support'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: '',
-  date_suffix: {
-    just: 'Just',
-    min: 'minutes ago',
-    hour: 'hours ago',
-    day: 'days ago',
-    month: 'months ago'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
-    }
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'FrankGu\'s Blog',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2022-11-29 15:00:51'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
   
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
+    <link rel="alternate" href="/atom.xml" title="FrankGu's Blog" type="application/atom+xml">
   
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
     
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">FrankGu&#39;s Blog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
         
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-网站の食用手册" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/" class="article-date">
+  <time class="dt-published" datetime="2022-06-04T14:28:28.000Z" itemprop="datePublished">2022-06-04</time>
+</a>
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 6.1.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 足迹</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/bg.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">FrankGu's Blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 足迹</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">FrankGu's Blog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2961429602&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/" title="网站の食用手册">网站の食用手册</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">Sticky</span><span class="article-meta-separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-06-04T14:28:28.000Z" title="Created 2022-06-04 22:28:28">2022-06-04</time></span></div><div class="content">网站の食用手册Tips
-网站本身是基于PC端开发的，在手机上页面会变得比较奇怪，一些特效也会显示不出来（
-右上角的 ”About me” 是一个简单的自我介绍， 原因是每次自我介绍我都会变哑巴。
-遇到各种各样的bug那都是正常现象
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/">网站の食用手册</a>
+    </h1>
+  
 
-Q&amp;AQ. 为什么写这个网站？
-A. 起初看到几位同学&amp;学长的博客（没经过他们同意就不把他们的放在这了），一开始只是简单浏览了里面的内容，后来某天突发奇想：我为什么不也搞一个呢？于是在连肝了几个晚上后就有了现在的样子。
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="网站の食用手册"><a href="#网站の食用手册" class="headerlink" title="网站の食用手册"></a>网站の食用手册</h1><h2 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2><ol>
+<li><big>网站本身是基于PC端开发的，在手机上页面会变得比较奇怪，一些特效也会显示不出来（</big></li>
+<li><big>右上角的 ”About me” 是一个简单的自我介绍， 原因是每次自我介绍我都会变哑巴。</big></li>
+<li><big><del>遇到各种各样的bug那都是正常现象</del></big></li>
+</ol>
+<h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><p><big>Q. 为什么写这个网站？</big></p>
+<p><big>A. 起初看到几位同学&amp;学长的博客（没经过他们同意就不把他们的放在这了），一开始只是简单浏览了里面的内容，后来某天突发奇想：我为什么不也搞一个呢？于是在连肝了几个晚上后就有了现在的样子。</big></p>
+<hr>
+<p><big>A. 花了多久啊（&gt;_&lt;)</big></p>
+<p><big>Q. 建站初期恰逢刚考完期中考，连着几个晚上都在解决一些bug和熟悉这个框架。后来就是一些无止境的美化了，努力把它变成看着更顺眼的样子。</big></p>
+<p><big>再后来因为技术力比较菜，写不出啥文章来……乐</big></p>
+<hr>
+<p><big>Q. 这个网站是怎么实现的捏？</big></p>
+<p><big>A. 首先其实搭建这样一个博客比想象中简单好多，大部分工作都是站在前人的肩膀上完成的, 并不需要什么cs方面的知识。</big></p>
+<p><big>首先关于服务器，这个网站是借助GitHub实现的，万能的GitHub有专门的功能可以帮助建立一个简陋的Pages。</big></p>
+<p><big>然后我选用的是hexo框架，配合Git用ssh连接到自己的GitHub账号后，可以通过类似命令行的方式一键把本地写的东西推到网页上，<del>对我这样的小白来说十分神奇</del>。</big></p>
+<p><big>关于网站的美化，网上有很多基于hexo框架定制的主题，基本都有很详细的说明文档。当然有些不满意的地方我写了点css来使其变成我想要的样子。</big></p>
+<p><big>QAQ. 差不多就是这样子了，<del>其实我应该单独写篇文章的</del>。</big></p>
+<hr>
+<p><big>A. 以后会更新啥？</big></p>
+<p><big>Q. 其实当时做这个博客的初衷就是用一种华丽呼哨的方式记录我觉得有趣的or经历的一些事情。</big></p>
+<p><big>后续应该会写一些学习上或技术上的知识&amp;经验，也会写一些学期总结or上过的课的感受。（主要是看到隔壁计院有很多分享帖，但数院似乎不多，导致在选课和规划上遇到很多纠结的地方……）</big></p>
+<p><big>当然，受制于时间原因以及有限的水平，文章都十分粗浅（以及漏洞百出？）大佬们看到就图一乐or私戳跟我交流哦<del>（随时欢迎哦</del>）</big></p>
+<p><big>似乎写在公众号上受众会更广一些？<del>当然是受不了秀米那个奇奇怪怪的编辑器</del>。</big></p>
+<h2 id="更上一层楼"><a href="#更上一层楼" class="headerlink" title="更上一层楼"></a>更上一层楼</h2><p><big>虽然花了很久，但感觉还是有点意义的，至少有点像模像样的了……</big></p>
+<p><big>首先就是搭博客本身的收获。逼着我去翻文档，去学习各种可能老师很少教的知识。比如Git，比如一些简单的css，HTML语言的编写，一些奇奇怪怪的知识（ssh，ping，dns等),  <del>原来前端还是挺有意思的嘛</del>。</big></p>
+<p><big>另外（单方面）认识了一些佬们。他们有的有光辉的竞赛经历，有的在b站上有几万粉丝。明明大家都是同龄人，却让我有种“人类进化又不带上我” 的感觉orz。</big></p>
+<p><big>还有就是拉了几位小伙伴进这个大坑（乐），想想他们也会经历一遍面对文档束手无策的样子就开始面带微笑（乐）。Anyway, 期待一波吧~</big></p>
 
-A. 花了多久啊（&gt;_&lt;)
-Q. 建站初期恰逢刚考完期中考，连着几个晚上都在解决一些bug和熟悉这个框架。后来就是一些无止境的美化了，努力把它变成看着更顺眼的样子。
-再后来因为技术力比较菜，写不出啥文章来……乐
-
-Q. 这个网站是怎么实现的捏？
-A. 首先其实搭建这样一个博客比想象中简单好多，大部分工作都是站在前人的肩膀上完成的, 并不需要什么cs方面的知识。
-首先关于服务器，这个网站是借助GitHub实现的，万能的GitHub有专门的功能可以帮助建立一个简陋的Pages。
-然后我选用的是hexo框架，配合Gi ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/" title="晚安短信Day2">晚安短信Day2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-28T15:20:51.000Z" title="Created 2022-11-28 23:20:51">2022-11-28</time></span></div><div class="content">Google的晚安短信 Day2
-今天的Google终于在外面安定下来，住在亲戚家里。看着zjg转运车排成一队的照片有点恐怖。几个关系好的朋友不是封楼就是已经被转运了，这次是Google进校以来最大的疫情了，希望各位潮人保重~
-
-Day2按潮的照例是情史部分……虽然感觉跟一堆不认识的人讲emmm有点奇怪?（反正也没人看x
-Google高中的时候有一段感情经历，给十分难熬的高三生活带来了一点希望。（话说高三的作息是真的阳间，现在是晚上9:30，也是Google高中的寝室熄灯熄话时间）。后来高考完暑假里因为一些事情差不多分了，然后魔幻的是虽然分数差了好多，但最后居然两个人都考到了浙大。但最后也没什么联系了。
-大一的Google自信的只面了一个社团但被无情拒绝，虽然Google并不是特别内向，整个大一Google认识的人并不多，大部分时候都是跟高中同学一起玩（这也是为什么在课程繁忙的大二还来了潮！）大一暑假在班级轰趴上认识了现在的npy，现在也是在一起啦。
-
-唔……有点不知道说什么了？
-
-好了，从Cipher那里找到了灵感，就来整理&#x2F;推荐一下我关注的UP主把~
-技术类：
-既然是技术 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/" title="托福回忆">托福回忆</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-11-28T03:12:31.000Z" title="Created 2022-11-28 11:12:31">2022-11-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&amp;总结</a></span></div><div class="content">个人情况英语基础应该还不错，但很久没有接触的英语的懒惰抱佛脚选手。（主要知道两年有效期的话肯定还要再考过）四级六级均是610+左右。单词量应该中规中矩吧。
-前期准备自从考完期中考就一直很懒，每天最多就是去扇贝背10分钟单词。考前一周逐渐开始抱佛脚，大概听力做了三四篇TPO，阅读按模考了一次发现还不错就没怎么看了（主要没时间了），考前最慌的主要是口语和写作。口语的话第一个task每次基本只能想到一个理由，拿着TPO练了一下差不多思路打开了点，又看到的口语练了一波，感觉差不多能考试了（主要这道题题目千奇百怪和发音也不能一下子练好），后面几个task看了看题型，象征性的练了一练。作文也是看了一下形式，背了几句模板差不多就上了。
-考试回忆前一天晚上吃了块奶油蛋糕，恶心了好久，晚上还去社团内训，大概九点多在大风中练了会口语，回来玩手机到12：00睡觉。大概7:50在zjg打车，打车一下来就是考点门口（不要打错了！），有很多工作人员。这里碰到一个岔子，lz忘记打印一个健康承诺书了，当时已经8:20，差点吓死，幸好门口的工作人员有备份，现场填完就放我进去了。进去以后是存包，然后有个大教室可以让你放水 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/" title="2022暑假不完全总结">2022暑假不完全总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-09-04T09:03:35.000Z" title="Created 2022-09-04 17:03:35">2022-09-04</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&amp;总结</a></span></div><div class="content">[生活] 2022 暑假总结摸鱼方面游戏篇原神：已经到了长草期，动不动将近10个G的更新文件实在消磨我的热情，新地图也没能让我提起兴趣。整个暑假上号次数一只手数的过来，放在平常这可是我一天的量（笑）。
-球球大作战：初中时玩过的游戏，当时也耗费了好多精力。和同学出去玩的时候发现有一个朋友在玩，于是大家纷纷下载一起玩。可惜我只能找回原来的小号，大部分时候换来的只是生疏的手法和被治好的高血压（乐）。
-双扣&amp;UNO：去旅游时候的主要娱乐项目，几天的旅游牌技倒是熟练了很多。
-番&#x2F;电影&#x2F;书主要看完了《鬼灭之刃》，十分好看的番，甚至花了两三天剪了一个视频 (链接在这)。
-学习&#x2F;技术方面前期刚放暑假（准确说是还没放）的时候列了一个宏伟的计划，估计是受csdiy的影响，尝试多开很多课一起学，但结果就是啥也没学会。
-考完主要的考试时候看了一下missing semester和CS61A,前者主要讲一些cs学习中的工具使用，折磨人的印度口音加上与数学软件有重叠所以就没看下去了，后者主要是Python，但想到下学期要学C++就有点没看下去的兴致。
-刚放假的时候认真看了一下 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/" title="笔记软件评测">笔记软件评测</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-06-23T02:57:35.000Z" title="Created 2022-06-23 10:57:35">2022-06-23</time></span></div><div class="content">笔记软件评测&#x2F;推荐写在前面刚考完几门硬课，下一门课又还早。闲着无事遂开个贴评测一下接触过的笔记软件。首先本人是理工科的学生，对笔记软件对公式和代码的支持比较看重，而对于一些类似手账的华丽的笔记没什么需求。另外接触笔记软件的时间不长，本篇文章也纯属个人见解，权当抛砖引玉了，也欢迎交流。
-
-Typora最好用的Markdown编辑器（个人觉得没有之一），也似乎是周围同学用的最多的，感觉把Markdown做到了极致的软件，如果单纯的写Markdown绝对是不二选择。笔记都以.md文件保存在本地，十分安全和便于管理。界面很舒服，有丰富的主题来美化，甚至可以用css代码来定制成任何样子。缺点是功能比较少，搜索，管理不完善。Ps：typora现在开始收费了，不过想想总能有办法的。这有一篇当年的十大帖
-
-语雀很好用的跨平台的笔记平台。有网页版也可以下载桌面版，同步功能十分的快且好用。功能十分强大，思维导图，优美的代码块，可以插入b站视频……有知识库和发布功能，可以很方便的多人写作。缺点是不在本地，不是很舒服；依赖第三方公司，有黑化风险；感觉文件的管理不是很舒服（纯个人感觉）
-
-印象笔记上线 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/27/vim%E4%BB%8B%E7%BB%8D/" title="vim介绍">vim介绍</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-27T05:08:16.000Z" title="Created 2022-05-27 13:08:16">2022-05-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Linux/">Linux</a></span></div><div class="content">vim的使用关于vim，江湖上流传着它的传说，有人说它是神的编辑器，有人说它是编辑器的神，也有人说他就是垃圾。不管怎样，安装好vim开始折腾吧。
-1sudo apt-install vim
-
-编写第一个程序C++重点介绍一下怎么写在Linux下写出一个hello world程序。
-c++有很多编译器可供选择，大名鼎鼎的gcc&#x2F;g++，另外还有clang，msvc等。一般用g++来编译c++程序，gcc理论上应该也可以，但实际使用下似乎有点问题。
-Linux似乎预装了gcc编译器，但g++似乎要手动下。在Ubuntu下似乎用apt就能安装。
-做好了准备工作，那么我们开始吧！
-首先在vim下新建一个文件
-1vim hello.cpp
-
-进入vim后是普通的模式，按i进入插入模式进行编辑，写一个简单的cpp程序。
-123456#include &lt;iostream&gt;using namespace std;int main()&#123;        cout&lt;&lt;&quot;hello world&quot;&lt;&lt;endl;        retur ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/27/Linux%E7%B3%BB%E5%88%97/" title="Linux系列">Linux系列</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-27T04:40:56.000Z" title="Created 2022-05-27 12:40:56">2022-05-27</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Linux/">Linux</a></span></div><div class="content">听学姐说数院的小学期要学Linux，作为（**超爱折磨自己的Linux爱好者**）狂喜，遂写了这篇blog，旨在记录一下自己的折腾经历，也帮以后入坑的朋友们少踩点坑。
-警告（Warning）如果你没有折腾过电脑的经历（比如连Windows的cmd都不知道怎么打开），折腾Linux对你或许有点痛苦，please做好心理准备……
-扫盲what is linux？linux 是一个操作系统（operating system）。最常见的操作系统就是Windows，大部分人从小接触的电脑都用的Windows，当然苹果是用的macos。
-linux有很多发行版：相当于一个娱乐公司（linux）下面有很多艺人（发行版）。Ubuntu是最常见的一个，其他还有deepin,arch……
-操作系统就是让硬件与软件交互的东西。（我也不大会解释）
-简单来说，操作系统由内核（kernel&lt;—-数院的学生应该会很熟悉这个词……），和外壳（shell）组成。
-shell通常是一个黑框框，里面你可以输入一些指令，然后操作系统就会根据你的指令去干你要他干的事情。
-windows 下的shell有cmd，power ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/23/%E5%A4%A7%E4%B8%80%E4%B8%8A%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/" title="大一上课程总结">大一上课程总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-23T15:25:46.000Z" title="Created 2022-05-23 23:25:46">2022-05-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&amp;总结</a></span></div><div class="content">大一上课程总结军训（2.0学分）来到大学第一堂课，因为本人意志力不强还特别爱偷懒，没去参加合唱和分列式，喜提拉胯绩点。结合身边的人的绩点来看，似乎参加了上面一个或两个绩点就比较好看了。（当然别的连似乎给分比较玄学）
-公共经济分析导论（1.5通识）首先必须吹一下这门课~上的zbm老师的课，其实课程内容还是有些无聊的，但老师十分擅长调动课堂气氛。导致每次翻ppt都惊叹于老师能把这么生硬的知识讲的那么生动……作业是每次听课后写听课感想，本人前几次还听得比较认真后面经常间歇性摸鱼。感觉老师给分还是比较仁慈的。
-西方音乐简史（1.5通识）冬学期的通识课，看到周围很多人就推荐就果断冲了。但没有音乐基础的理工男慎选。当然老师是好老师，疫情期间cl老师甚至在家里还给我们弹钢琴，考核是两个大作业+期末的听辨测试。本人自认为还是认真准备的，无奈木耳朵完全分不清不同音乐的区别，论文因为不大会对音乐进行赏析得分估计也不高，最后喜提3.3……
-大学英语四因为某些神奇的原因，高考英语拉胯的我大一上就上了大英四。joy老师的课作业似乎特别少，老师似乎更注重课堂上的交流和讨论，总结来说体验还是很棒的。不出意料班上有很 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/" title="一次校赛回忆">一次校赛回忆</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-23T15:11:28.000Z" title="Created 2022-05-23 23:11:28">2022-05-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&amp;总结</a></span></div><div class="content">校赛回忆前前言：个人是一个很爱记录的人，校赛打完先狂玩了两天，不写点什么东西不是我的风格，遂有了这篇文章。
-前言：这次组队过程可以说特别神奇。开赛前三个人都不认识，因为一些神奇的事情走到了一起。脑子一热不顾5月份堆积如山的ddl就报名了。既然报了名，那也就一起上贼船了喽。我先是东学学西学学，一抬头发现已经到了开赛的日期，于是硬着头皮就上了。
-正文（流水账警告）原先看过去年的题目，不过今年的题目还是挺出乎我的意料。下面这个A题啥都没告诉我们，感觉基本没人选，好在这样就免去了选题的烦恼。选择苦难症狂喜
-
-题目定下来只能硬着头皮上呗。B题出的十分新颖，让我对出题人充满敬意。看起来是个普通的TSP问题，但深究好像又有点奇怪。
-在激烈的讨论很久以后，我们发现自己果然还是太菜了，本来想做一个TSP的变式却死活写不出code，最后只能妥协做一个简单的TSP，我写的代码大部分都是参考网上的轮子……
-这样第一问算是完美“解决”了。剩下几问在我们的讨论下也初步有了方案（不得不承认线下讨论真的比线上高不知几倍……）
-大家在丹青的洗衣房度过了愉（头）快（秃）的一晚上
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/" data-id="clb0zvtz1000rkctohg4sdslx" data-title="网站の食用手册" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
 
 
-接下来的code 主要是由zmgg写的 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/05/14/TSP/" title="TSP">TSP</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-14T10:06:33.000Z" title="Created 2022-05-14 18:06:33">2022-05-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/CS/">CS</a></span></div><div class="content">TSP问题问题描述旅行商问题（Travelling salesman problem），只在平面上给定一系列城市的坐标，有一个旅行商要从其中一个城市出发，经过所有城市后再回到起点。求问怎么走使总路程最短？
-这个是图论里的著名问题，而且是NP-hard问题，一般会用各种启发式算法去寻找解（能最大概率地找到最优解）
-我在数模建模的时候遇到了这个问题，下面选用遗传算法 x Python来实现。
-一个例子已知平面上有下列点，求问怎么走使总路程最短？
 
-效果展示
-寻得的最佳路线是：
-1–&gt;4–&gt;6–&gt;5–&gt;3–&gt;2–&gt;11–&gt;10–&gt;9–&gt;8–&gt;7–&gt;1
-Code1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Frank</div><div class="author-info__description">freshman@ZJU</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ZJU-FrankGu"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2961429602&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fab fa-qq"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/" title="晚安短信Day2">晚安短信Day2</a><time datetime="2022-11-28T15:20:51.000Z" title="Created 2022-11-28 23:20:51">2022-11-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/" title="托福回忆">托福回忆</a><time datetime="2022-11-28T03:12:31.000Z" title="Created 2022-11-28 11:12:31">2022-11-28</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/" title="2022暑假不完全总结">2022暑假不完全总结</a><time datetime="2022-09-04T09:03:35.000Z" title="Created 2022-09-04 17:03:35">2022-09-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/" title="笔记软件评测">笔记软件评测</a><time datetime="2022-06-23T02:57:35.000Z" title="Created 2022-06-23 10:57:35">2022-06-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/" title="网站の食用手册">网站の食用手册</a><time datetime="2022-06-04T14:28:28.000Z" title="Created 2022-06-04 22:28:28">2022-06-04</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
-            <i class="fas fa-folder-open"></i>
-            <span>Categories</span>
-            
-            </div>
-            <ul class="card-category-list" id="aside-cat-list">
-            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/CS/"><span class="card-category-list-name">CS</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Linux/"><span class="card-category-list-name">Linux</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/"><span class="card-category-list-name">回忆&总结</span><span class="card-category-list-count">4</span></a></li>
-            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">November 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/09/"><span class="card-archive-list-date">September 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">June 2022</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">May 2022</span><span class="card-archive-list-count">7</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">Total Count :</div><div class="item-count">11.9k</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-11-29T07:00:51.474Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Frank</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
-  if (true) { 
-    window.typed = new Typed("#subtitle", {
-      strings: ["今日事，今日毕","春风夏雨，辉光日新","恭喜你发现宝藏"],
-      startDelay: 300,
-      typeSpeed: 150,
-      loop: true,
-      backSpeed: 50
-    })
-  } else {
-    document.getElementById("subtitle").innerHTML = '今日事，今日毕'
-  }
-}
+  
+    <article id="post-晚安短信Day2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/" class="article-date">
+  <time class="dt-published" datetime="2022-11-28T15:20:51.000Z" itemprop="datePublished">2022-11-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/">晚安短信Day2</a>
+    </h1>
+  
 
-if (true) {
-  if (typeof Typed === 'function') {
-    subtitleType()
-  } else {
-    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
-  }
-} else {
-  subtitleType()
-}</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Google的晚安短信-Day2"><a href="#Google的晚安短信-Day2" class="headerlink" title="Google的晚安短信 Day2"></a>Google的晚安短信 Day2</h1><blockquote>
+<p>今天的Google终于在外面安定下来，住在亲戚家里。看着zjg转运车排成一队的照片有点恐怖。几个关系好的朋友不是封楼就是已经被转运了，这次是Google进校以来最大的疫情了，希望各位潮人保重~</p>
+</blockquote>
+<p>Day2按潮的照例是情史部分……虽然感觉跟一堆不认识的人讲emmm有点奇怪?（反正也没人看x</p>
+<p>Google高中的时候有一段感情经历，给十分难熬的高三生活带来了一点希望。（话说高三的作息是真的阳间，现在是晚上9:30，也是Google高中的寝室熄灯熄话时间）。后来高考完暑假里因为一些事情差不多分了，然后魔幻的是虽然分数差了好多，但最后居然两个人都考到了浙大。但最后也没什么联系了。</p>
+<p>大一的Google自信的只面了一个社团但被无情拒绝，虽然Google并不是特别内向，整个大一Google认识的人并不多，大部分时候都是跟高中同学一起玩（这也是为什么在课程繁忙的大二还来了潮！）大一暑假在班级轰趴上认识了现在的npy，现在也是在一起啦。</p>
+<blockquote>
+<p>唔……有点不知道说什么了？</p>
+</blockquote>
+<p>好了，从Cipher那里找到了灵感，就来整理&#x2F;推荐一下我关注的UP主把~</p>
+<p><strong>技术类：</strong></p>
+<p>既然是技术部，当然离不开技术类UP！</p>
+<p>（PS: 第一位是三本校友哦~）</p>
+<p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128215517429.png"></p>
+<p><strong>搞笑类</strong></p>
+<p>搞笑类大多来自好多不同的UP？这里就放三个大V吧~</p>
+<p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128215811279.png" alt="image-20221128215811279"></p>
+<p><strong>生活类</strong></p>
+<p>Google一个人吃饭的时候会不觉的开始刷B站。这些生活类Up可以带潮人放松一下~</p>
+<p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128221708116.png" alt="image-20221128221708116"></p>
+<p><strong>最后放几个视频吧</strong></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1q8411W7GJ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">带你回到紫金港的夏天！</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1BA411E7JQ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">看一次燃一次的求是潮宣传片</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV13V4y1j7jr/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">Google又开始整活了</a></p>
+<h4 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h4><p>明天依旧下雨，气温开始断崖式下跌，大家注意保暖哦~</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/" data-id="clb0zvtyw000hkctodu2hezg8" data-title="晚安短信Day2" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-托福回忆" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/" class="article-date">
+  <time class="dt-published" datetime="2022-11-28T03:12:31.000Z" itemprop="datePublished">2022-11-28</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&总结</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/">托福回忆</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h3><p>英语基础应该还不错，但很久没有接触的英语的懒惰抱佛脚选手。（主要知道两年有效期的话肯定还要再考过）<br>四级六级均是610+左右。单词量应该中规中矩吧。</p>
+<h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><p>自从考完期中考就一直很懒，每天最多就是去扇贝背10分钟单词。考前一周逐渐开始抱佛脚，大概听力做了三四篇TPO，阅读按模考了一次发现还不错就没怎么看了（<del>主要没时间了</del>），考前最慌的主要是口语和写作。<br>口语的话第一个task每次基本只能想到一个理由，拿着TPO练了一下差不多思路打开了点，又看到的口语练了一波，感觉差不多能考试了（主要这道题题目千奇百怪和发音也不能一下子练好），后面几个task看了看题型，象征性的练了一练。作文也是看了一下形式，背了几句模板差不多就上了。</p>
+<h3 id="考试回忆"><a href="#考试回忆" class="headerlink" title="考试回忆"></a>考试回忆</h3><p>前一天晚上吃了块奶油蛋糕，恶心了好久，晚上还去社团内训，大概九点多在大风中练了会口语，回来玩手机到12：00睡觉。<br>大概7:50在zjg打车，打车一下来就是考点门口（不要打错了！），有很多工作人员。<br>这里碰到一个岔子，lz忘记打印一个健康承诺书了，当时已经8:20，差点吓死，幸好门口的工作人员有备份，现场填完就放我进去了。进去以后是存包，然后有个大教室可以让你放水和食物（待会休息的时候可以来这里），然后就是安检进考场。看经验贴说进去考场就没人管戴不戴口罩了，但lz这次做阅读的时候摘下了口罩，还被监考员要求带上，莫非是这几天疫情又严重了？<br>上来就是阅读加试，好在刚开始还算冷静，知道平时经常做不完，压着点做完了四篇阅读，开听听力的时候有点烦躁了，有点静不下来，忍着尿意做完，奇怪的是听最后一篇听力的时候居然有人在口语了，还分了一下心。（顺便吐槽一下小站托福上的阅读模考，明明现在都是要求18分钟一篇，它还是20分钟一篇）<br>正常休息，上厕所。（这里有学长说可以前面拖点时间，这样可以听到别人口语在说什么来准备一下，不过lz太紧张了没听到别人怎么样）回来口语第一题问你喜欢原先的打牌还是现在的玩电子游戏消遣，感觉有点似曾相识？后面几个task几乎没准备，基本答的很一般。<del>有一个还没怎么答完。</del><br>话说考前从没写完过一篇作文，这次第一篇讲一个azore island，感觉中规中矩<br>大作文是有一笔public money，是用来造图书馆还是修公交好呢，这篇在xhd做过，可惜回忆起来很少，马马虎虎造完了。（考试时用的键盘是薄膜键盘，键程较短，上面有薄膜；看到98上说可以把键盘从抽屉里拿出来，而且lz还撕掉了薄膜，实测没什么问题，另外打字速度确实也挺重要）</p>
+<h3 id="Reflect"><a href="#Reflect" class="headerlink" title="Reflect"></a>Reflect</h3><ul>
+<li><strong>词汇量</strong>这个东西肯定是多多益善。lz高考完就大概想起来了去扇贝背下单词？感觉单词量不是很多，但感觉考下来勉强够用。（感觉单词量最主要的帮助是阅读里的词汇题和阅读的速度），慢慢背单词吧。</li>
+<li><strong>听力</strong>和<strong>阅读</strong>感觉是我们中国学生擅长的部分，lz这次虽然几乎没怎么准备但也还行。下次考前可以抽出时间多刷题，应该问题不是很大。（感觉看看美剧什么挺轻松愉快也挺有帮助的）</li>
+<li><strong>口语</strong>的话感觉应试技巧挺重要的。口音的话一是比较难提升，二是感觉托福只要口音不是太离谱应该问题也不大？限时也很重要，要在限时内瞬间发散出几个点，然后回答还是挺需要训练的。当然发散只是针对第一个task，后面几个都是考验听力和迅速记忆的能力。应该也是考刷题吧。</li>
+<li><strong>写作</strong>的话暂时没什么想说的。考下来感觉自己打字速度稍慢，而且感觉大作文写不长？应该是不大会发散思维还有本身写作能力不够，下次再说吧。<h3 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h3>感谢cc98上的很多经验贴，给了我很多帮助。以下仅仅是部分。<br><a target="_blank" rel="noopener" href="https://www.cc98.org/topic/5469354">https://www.cc98.org/topic/5469354</a><br><a target="_blank" rel="noopener" href="https://www.cc98.org/topic/5370702">https://www.cc98.org/topic/5370702</a><br><a target="_blank" rel="noopener" href="https://www.cc98.org/topic/5079843">https://www.cc98.org/topic/5079843</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/" data-id="clb0zvtyv000ekctohcc04m6z" data-title="托福回忆" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-2022暑假不完全总结" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/" class="article-date">
+  <time class="dt-published" datetime="2022-09-04T09:03:35.000Z" itemprop="datePublished">2022-09-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&总结</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/">2022暑假不完全总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="生活-2022-暑假总结"><a href="#生活-2022-暑假总结" class="headerlink" title="[生活] 2022 暑假总结"></a>[生活] 2022 暑假总结</h1><h3 id="摸鱼方面"><a href="#摸鱼方面" class="headerlink" title="摸鱼方面"></a>摸鱼方面</h3><h4 id="游戏篇"><a href="#游戏篇" class="headerlink" title="游戏篇"></a>游戏篇</h4><p>原神：已经到了长草期，动不动将近10个G的更新文件实在消磨我的热情，新地图也没能让我提起兴趣。整个暑假上号次数一只手数的过来，放在平常这可是我一天的量（笑）。</p>
+<p>球球大作战：初中时玩过的游戏，当时也耗费了好多精力。和同学出去玩的时候发现有一个朋友在玩，于是大家纷纷下载一起玩。可惜我只能找回原来的小号，大部分时候换来的只是生疏的手法和被治好的高血压（乐）。</p>
+<p>双扣&amp;UNO：去旅游时候的主要娱乐项目，几天的旅游牌技倒是熟练了很多。</p>
+<h4 id="番-x2F-电影-x2F-书"><a href="#番-x2F-电影-x2F-书" class="headerlink" title="番&#x2F;电影&#x2F;书"></a>番&#x2F;电影&#x2F;书</h4><p>主要看完了《鬼灭之刃》，十分好看的番，甚至花了两三天剪了一个视频 (<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1iG411471x?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">链接在这</a>)。</p>
+<h3 id="学习-x2F-技术方面"><a href="#学习-x2F-技术方面" class="headerlink" title="学习&#x2F;技术方面"></a>学习&#x2F;技术方面</h3><h4 id="前期"><a href="#前期" class="headerlink" title="前期"></a>前期</h4><p>刚放暑假（准确说是还没放）的时候列了一个宏伟的计划，估计是受<a target="_blank" rel="noopener" href="https://csdiy.wiki/">csdiy</a>的影响，尝试多开很多课一起学，但结果就是啥也没学会。</p>
+<p>考完主要的考试时候看了一下missing semester和CS61A,前者主要讲一些cs学习中的工具使用，折磨人的印度口音加上与数学软件有重叠所以就没看下去了，后者主要是Python，但想到下学期要学C++就有点没看下去的兴致。</p>
+<p>刚放假的时候认真看了一下吴恩达的机器学习，虽然就看了前两章，不过还是很认真的，记了不少笔记也学了不少东西。</p>
+<h4 id="中后期"><a href="#中后期" class="headerlink" title="中后期"></a>中后期</h4><p>主要是学习c++。</p>
+<p>说实话在学c++的路上真的走了很多弯路（上来就推荐直接啃primmer的是认真的么）。由于没学过c小&#x2F;c大，我对这门语言一无所知，并且why老师一直在散布焦虑，所以学的决心倒是很坚定，不过估计也就剩这个了。</p>
+<p>总结来说一开始选了《21天学懂c++》+ b站上黑马的课来简单知道语法，不得不说这两样东西真的很适合零基础上手。（<del>不过后来发现好像学ds不需要那么多语法，会写for循环就能上了</del>）</p>
+<p>大致会了一点后迷茫了好久（其实是到处踩坑），中间跟了清华邓公&#x2F;浙大cy的课一段时间，不过刚学完语法就硬啃属实难为我了。而且没啥练习题能实操导致学的非常浅。（又想起初中学oi时听天书的恐惧感）</p>
+<p>8月末去长沙玩了几天，回来就9月了。突然发现LeetCode上有个叫Leetbook的东西，跟着刷了一波题……emmm感觉应该早点发现，毕竟数据结构就是做算法题嘛。</p>
+<h4 id="托福"><a href="#托福" class="headerlink" title="托福"></a>托福</h4><p>去杭州线下学了两周，xhd的老师水平还是挺棒的，课程质量也比我想象的高~</p>
+<p>但可能当时没有坚定考托福的决心，反正就是一路划水~唯一的收获估计是一大堆送的资料（乐）。</p>
+<h3 id="兴趣-x2F-爱好方面"><a href="#兴趣-x2F-爱好方面" class="headerlink" title="兴趣&#x2F;爱好方面"></a>兴趣&#x2F;爱好方面</h3><p>不知是上了大学时间比较多还是这个暑假实在太长，周围人不约而同的重拾起儿时的爱好。</p>
+<h4 id="摄影"><a href="#摄影" class="headerlink" title="摄影"></a>摄影</h4><p>本以为小学买的佳能单反已经报废得差不多了，没想到居然还能用。一开始就东拍西拍，在认真拍了一次星空后，又回到了摄影这个坑里来。</p>
+<p><img src="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93%5C350-2.png"></p>
+<p>后来借着旅游的名义又升级了尼康Z5微单，期间也接触到调色，各种相机参数&#x2F;图片的色彩参数……</p>
+<p>（~~好看的照片没几张，知道的参数却一大堆……是我没错了）</p>
+<h4 id="剪视频"><a href="#剪视频" class="headerlink" title="剪视频"></a>剪视频</h4><p>起因是五一的时候刚入了无人机，想模仿油管上的创意剪一个片段，当时对着刚下的剪映折腾了好久才弄出一个不能看的半成品。</p>
+<p>后来越来越多的接触到一些新的有趣的视频，电脑上也慢慢多了PR，达芬奇等一众软件。</p>
+<p><a target="_blank" rel="noopener" href="https://space.bilibili.com/1229290077?spm_id_from=333.1007.0.0">戳这</a>看我的B站主页~当然还有一些有意思的视频不大方便放上去。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/" data-id="clb0zvtym0001kcto8vhd6dla" data-title="2022暑假不完全总结" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-笔记软件评测" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-06-23T02:57:35.000Z" itemprop="datePublished">2022-06-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/">笔记软件评测</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="笔记软件评测-x2F-推荐"><a href="#笔记软件评测-x2F-推荐" class="headerlink" title="笔记软件评测&#x2F;推荐"></a>笔记软件评测&#x2F;推荐</h2><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>刚考完几门硬课，下一门课又还早。闲着无事遂开个贴评测一下接触过的笔记软件。<br>首先本人是理工科的学生，对笔记软件对公式和代码的支持比较看重，而对于一些类似手账的华丽的笔记没什么需求。另外接触笔记软件的时间不长，本篇文章也纯属个人见解，权当抛砖引玉了，也欢迎交流。</p>
+<hr>
+<h3 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h3><p>最好用的Markdown编辑器（个人觉得没有之一），也似乎是周围同学用的最多的，感觉把Markdown做到了极致的软件，如果单纯的写Markdown绝对是不二选择。笔记都以.md文件保存在本地，十分安全和便于管理。<br>界面很舒服，有丰富的主题来美化，甚至可以用css代码来定制成任何样子。<br>缺点是功能比较少，搜索，管理不完善。<br>Ps：typora现在开始收费了，不过想想总能有办法的。<br><a target="_blank" rel="noopener" href="https://www.cc98.org/topic/5321363">这有一篇当年的十大帖</a></p>
+<hr>
+<h3 id="语雀"><a href="#语雀" class="headerlink" title="语雀"></a>语雀</h3><p>很好用的跨平台的笔记平台。有网页版也可以下载桌面版，同步功能十分的快且好用。<br>功能十分强大，思维导图，优美的代码块，可以插入b站视频……<br>有知识库和发布功能，可以很方便的多人写作。<br>缺点是不在本地，不是很舒服；依赖第三方公司，有黑化风险；感觉文件的管理不是很舒服（纯个人感觉）</p>
+<hr>
+<h3 id="印象笔记"><a href="#印象笔记" class="headerlink" title="印象笔记"></a>印象笔记</h3><p>上线最早的笔记软件，在中国注册量十分大，有很好的群众基础。<br>缺点是最近几年已黑化，各种让开VIP等操作让大多数人弃用。<br>只是下载了没怎么用过不多评价。</p>
+<hr>
+<h3 id="obsidian"><a href="#obsidian" class="headerlink" title="obsidian"></a>obsidian</h3><p>风格很类似typora，也是在本地以.md文件存储，但加入了很多功能。同样有很丰富的主题来美化，在typora不完善的搜索和思维导图等地方也进一步完善。有很多新的功能，比如obs的特色：知识图谱和双向链接，<del>虽然可能真正的用处不大</del>。有丰富的第三方插件，目前也是在不断的更新完善中，未来可期。<br>缺点：同步和发布要收费，虽然也有一些解决方案，但还是不是很完美。（在这方面语雀yyds！）Markdown上一些细节不是很舒服，比如插入图片的缩放（这个在typora里就很舒服）<br><a target="_blank" rel="noopener" href="https://www.cc98.org/topic/5332436">98上有一篇详细的介绍obs的帖子</a></p>
+<hr>
+<h3 id="有道云笔记"><a href="#有道云笔记" class="headerlink" title="有道云笔记"></a>有道云笔记</h3><p>也是很早就有的笔记软件，个人感觉有道的产品还是可以的。<br>风格类似语雀，同步功能同样完善。而且画思维导图，插入表情等十分方便。<br>缺点：不知道pc端感觉十分臃肿，每次打开都要很久，严重降低使用体验！另外虽然支持Markdown，但不支持实时预览，用起来十分难受。在同步功能上似乎也有一定的bug。<br>曾经使用过有道云一段时间，现在已经弃用了，感觉被语雀几乎全方位压制了。</p>
+<hr>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li><strong>joplin：</strong> 感觉跟obsidian应该是同个类型的，也有很丰富的插件，但好像用的人不是很多。</li>
+<li><strong>vscode：</strong> 作为万能的编辑器，我确实用过vscode作为一段时间的笔记软件。不过当时刚接触Markdown，也不知道有啥其他的编辑器……vsc作为编辑器唯一的好处就是方便了吧，写代码笔记的时候不用再打开另外一个软件（没有实时预览是一个很难受的点）。</li>
+<li><strong>onenote：</strong> 微软的产品，在多设备协同上做的似乎挺好，我的数学老师就用的这个讲课。不过似乎对Markdown和代码支持不是很好，所以也没用过。</li>
+<li><strong>notion：</strong> 大名鼎鼎的笔记软件，在小红书和b站上都有非常多的视频。页面精美，有极高的可定制性（折腾），有点类似于做手账的感觉。但似乎由于服务器在国外，经常会遇到网络问题。没用过不多评价。</li>
+</ul>
+<hr>
+<h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>个人感觉笔记软件分为两类：一种是以.md形式存储在本地，一种是类似语雀等存储在云端。<br><strong>前者</strong>类似于一个编辑器，大多能自定义主题，风格等，也比较安全，隐患较少，缺点是在同步和分享方面基本都不是很好，而且功能也没有第二类的那么丰富。<br><strong>后者</strong>最大的好处就是随时共享，同步，整体上也很轻量，功能丰富。但对Markdown和代码的友好性一般没有前者好，而且由于存储在云端，依赖第三方平台，文章隐私可能有问题（一个朋友说他写的东西甚至直接被ban了）；第三方平台有“黑化”风险，如投放大量广告，如不停的推出VIP制度来割韭菜，如限制上传容量，这都是潜在的隐患。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/" data-id="clb0zvtyz000qkctoc37g4486" data-title="笔记软件评测" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-vim介绍" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/27/vim%E4%BB%8B%E7%BB%8D/" class="article-date">
+  <time class="dt-published" datetime="2022-05-27T05:08:16.000Z" itemprop="datePublished">2022-05-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/27/vim%E4%BB%8B%E7%BB%8D/">vim介绍</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="vim的使用"><a href="#vim的使用" class="headerlink" title="vim的使用"></a>vim的使用</h1><p>关于vim，江湖上流传着它的传说，有人说它是神的编辑器，有人说它是编辑器的神，也有人说他就是垃圾。不管怎样，安装好vim开始折腾吧。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-install vim</span><br></pre></td></tr></table></figure>
+
+<h2 id="编写第一个程序"><a href="#编写第一个程序" class="headerlink" title="编写第一个程序"></a>编写第一个程序</h2><h4 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h4><p>重点介绍一下怎么写在Linux下写出一个hello world程序。</p>
+<p>c++有很多编译器可供选择，大名鼎鼎的gcc&#x2F;g++，另外还有clang，msvc等。一般用g++来编译c++程序，gcc理论上应该也可以，但实际使用下似乎有点问题。</p>
+<p>Linux似乎预装了gcc编译器，但g++似乎要手动下。在Ubuntu下似乎用apt就能安装。</p>
+<p><strong>做好了准备工作，那么我们开始吧</strong>！</p>
+<p>首先在vim下新建一个文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim hello.cpp</span><br></pre></td></tr></table></figure>
+
+<p>进入vim后是普通的模式，按i进入插入模式进行编辑，写一个简单的cpp程序。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int main()&#123;</span><br><span class="line">        cout&lt;&lt;&quot;hello world&quot;&lt;&lt;endl;</span><br><span class="line">        return 0;</span><br><span class="line">&#125;                           </span><br></pre></td></tr></table></figure>
+
+<p>按esc退出插入模式，按：进入尾行模式，按wq进行保存并退出。</p>
+<p>这样就回到了终端中，可以输入ls查看文件目录，发现多了hello.cpp文件。</p>
+<p>接着用g++编译：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">g++ hello.cpp</span><br></pre></td></tr></table></figure>
+
+<p>如果没有报错就说明没有问题。在输入ls命令，可以看到目录下多了a.out文件，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./a.out</span><br></pre></td></tr></table></figure>
+
+<p>执行文件，即可出现：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello world</span><br></pre></td></tr></table></figure>
+
+<h4 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h4><p>Ubuntu内置了Python。命令行输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3</span><br></pre></td></tr></table></figure>
+
+<p>可查看安装的版本。（Ubuntu22.04似乎内置了Python 3.10.4）</p>
+<p>类似C++，我们可以</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vim hello.py</span><br><span class="line"># 写你的程序</span><br><span class="line">python3 hello.py</span><br><span class="line">./a.out</span><br></pre></td></tr></table></figure>
+
+<p>来得到输出。</p>
+<h2 id="更上一层楼"><a href="#更上一层楼" class="headerlink" title="更上一层楼"></a>更上一层楼</h2><p>vim的魅力远不在此。通过修改配置文件，你可以将vim定制成任何你想要的样子，以及按你的习惯修改各种操作, 这可以让你远离鼠标。</p>
+<p>此处不在一一介绍，不过以下是一些可以折腾的地方。</p>
+<ol>
+<li>修改键位。(强烈建议把大写锁定键映射成esc，这个键占了键盘的黄金键位但用处很少)</li>
+<li>熟悉vim的几种模式</li>
+<li>熟悉vim的快捷键，比如可以通过shift+a快速调到行的末尾。</li>
+<li><del>美化vim</del>（逃）</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/27/vim%E4%BB%8B%E7%BB%8D/" data-id="clb0zvtyt0009kctoa93y5gn4" data-title="vim介绍" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Linux系列" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/27/Linux%E7%B3%BB%E5%88%97/" class="article-date">
+  <time class="dt-published" datetime="2022-05-27T04:40:56.000Z" itemprop="datePublished">2022-05-27</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Linux/">Linux</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/27/Linux%E7%B3%BB%E5%88%97/">Linux系列</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>听学姐说数院的小学期要学Linux，作为（**<del>超爱折磨自己的Linux爱好者</del>**）狂喜，遂写了这篇blog，旨在记录一下自己的折腾经历，也帮以后入坑的朋友们少踩点坑。</p>
+<h3 id="警告（Warning）"><a href="#警告（Warning）" class="headerlink" title="警告（Warning）"></a>警告（Warning）</h3><p>如果你没有折腾过电脑的经历（比如连Windows的cmd都不知道怎么打开），折腾Linux对你或许有点痛苦，please做好心理准备……</p>
+<h3 id="扫盲"><a href="#扫盲" class="headerlink" title="扫盲"></a>扫盲</h3><h3 id="what-is-linux？"><a href="#what-is-linux？" class="headerlink" title="what is linux？"></a>what is linux？</h3><p>linux 是一个操作系统（operating system）。最常见的操作系统就是Windows，大部分人从小接触的电脑都用的Windows，当然苹果是用的macos。</p>
+<p><strong>linux有很多发行版</strong>：相当于一个娱乐公司（linux）下面有很多艺人（发行版）。Ubuntu是最常见的一个，其他还有deepin,arch……</p>
+<p>操作系统就是让硬件与软件交互的东西。（我也不大会解释）</p>
+<p>简单来说，操作系统由内核（kernel&lt;—-数院的学生应该会很熟悉这个词……），和外壳（shell）组成。</p>
+<p>shell通常是一个黑框框，里面你可以输入一些指令，然后操作系统就会根据你的指令去干你要他干的事情。</p>
+<p>windows 下的shell有cmd，powershell，git bash等，前两个你可以摁下win+R输入对应的名称，就会跳出一个框框。剩下一个要自己装。</p>
+<p>装完Ubuntu后按Ctrl+alt+T 呼出Linux自带的bash (bash 应该就是shell的名字而已)</p>
+<p>每个shell似乎都有自己的语法，但一般都是以linux的shell为准，里面可以干很多事情，不细说。你在装软件，blabla的时候一般都是通过在shell 里敲代码完成。所以如果要用明白，你要简单的知道一下shell的语法。</p>
+<p><del>Windows下的shell都是阉割版，git bash 到几乎跟linux的shell差不多。</del></p>
+<h3 id="介绍-Introduce"><a href="#介绍-Introduce" class="headerlink" title="介绍(Introduce)"></a>介绍(Introduce)</h3><p>Linux 是一个开源的操作系统，与我们平常用的Windows，macos有很多区别。linux爱好者似乎像信奉邪教一样，对Linux有种狂热的热爱。</p>
+<p>不同于Windows把发行版命名为win7，win10，Linux不止有一家公司在维护（例如大名鼎鼎的Debian（大便）公司），所以发行版的名称也千奇百怪。比较著名的有：</p>
+<p>Ubuntu（也是数院课用的），Deepin，Arch Linux，centos……</p>
+<p>第一个Ubuntu是目前小白上手最多的方案，下面的教程都是基于Ubuntu。</p>
+<h3 id="安装-Install"><a href="#安装-Install" class="headerlink" title="安装(Install)"></a>安装(Install)</h3><p><strong>前言：</strong></p>
+<p>首先大部分人装Linux都不是一帆风顺的。操作系统是在硬件和不懂二进制的你之间构建一座桥（想进一步了解请移步：计院—操作系统），不同电脑的硬件不一样，对linux的兼容性也不一样，意为着你会遇到各种各样的问题。Anyway，我有三句真言送给你，请铭记在心：</p>
+<p><img src="/2022/05/27/Linux%E7%B3%BB%E5%88%97/2.png"></p>
+<p>主流（据我了解）有三种方案：</p>
+<ol>
+<li><p>在虚拟机中安装（初学者推荐），缺点是跑大的东西会比较卡，一般电脑都带不董。</p>
+</li>
+<li><p>安装双系统。好处是一步到位，坏处是比较折腾，而且新手第一次装容易崩。</p>
+</li>
+<li><p>wsl。听说很多人用这个，现在wsl也有了2.0版本，没用过不评价。</p>
+</li>
+</ol>
+<p>这里我用的是第一种,安装的version是Vmware16+Ubuntu22.04。</p>
+<p><strong>Tips：</strong></p>
+<ol>
+<li><p>建议安装最新版vmware，我一开始装的vm15兼容性出了很多问题，不得不卸载重装，而且这东西卸载巨麻烦……</p>
+</li>
+<li><p>Ubuntu最好不要像我一样装最新的……很多教程都是基于老版的，而且新版兼容性通常比老版差……18.04和20.04都很ok</p>
+</li>
+</ol>
+<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><p>好了，我相信上面的问题肯定难不倒你，现在你已经看到那激动而性感的粉红色桌面了：（此处省略300字对壁纸的赞美）<img src="/2022/05/27/Linux%E7%B3%BB%E5%88%97/1.png"></p>
+<p>OK，我们可以进行在开源的世界里遨游了！</p>
+<p>现在我们来开启几个<strong>支线任务</strong>：</p>
+<h3 id="后续："><a href="#后续：" class="headerlink" title="后续："></a>后续：</h3><p>抛弃了虚拟机，因为太卡了，不能完全发挥电脑的硬件能力……</p>
+<p>有个非常厉害的朋友完全用Linux工作，这把我带进了大坑……于是折腾了好久的双系统，现在差不多能用了……</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/27/Linux%E7%B3%BB%E5%88%97/" data-id="clb0zvtyp0003kcto1kjb9xvk" data-title="Linux系列" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-大一上课程总结" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/23/%E5%A4%A7%E4%B8%80%E4%B8%8A%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/" class="article-date">
+  <time class="dt-published" datetime="2022-05-23T15:25:46.000Z" itemprop="datePublished">2022-05-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&总结</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/23/%E5%A4%A7%E4%B8%80%E4%B8%8A%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/">大一上课程总结</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="大一上课程总结"><a href="#大一上课程总结" class="headerlink" title="大一上课程总结"></a>大一上课程总结</h1><h2 id="军训（2-0学分）"><a href="#军训（2-0学分）" class="headerlink" title="军训（2.0学分）"></a>军训（2.0学分）</h2><p>来到大学第一堂课，因为本人意志力不强还特别爱偷懒，没去参加合唱和分列式，喜提拉胯绩点。结合身边的人的绩点来看，似乎参加了上面一个或两个绩点就比较好看了。（<del>当然别的连似乎给分比较玄学</del>）</p>
+<h2 id="公共经济分析导论（1-5通识）"><a href="#公共经济分析导论（1-5通识）" class="headerlink" title="公共经济分析导论（1.5通识）"></a>公共经济分析导论（1.5通识）</h2><p>首先必须吹一下这门课~上的zbm老师的课，其实课程内容还是有些无聊的，但老师十分擅长调动课堂气氛。导致每次翻ppt都惊叹于老师能把这么生硬的知识讲的那么生动……作业是每次听课后写听课感想，本人前几次还听得比较认真后面经常间歇性摸鱼。感觉老师给分还是比较仁慈的。</p>
+<h2 id="西方音乐简史（1-5通识）"><a href="#西方音乐简史（1-5通识）" class="headerlink" title="西方音乐简史（1.5通识）"></a>西方音乐简史（1.5通识）</h2><p>冬学期的通识课，看到周围很多人就推荐就果断冲了。但没有音乐基础的理工男慎选。当然老师是好老师，疫情期间cl老师甚至在家里还给我们弹钢琴，考核是两个大作业+期末的听辨测试。本人自认为还是认真准备的，无奈木耳朵完全分不清不同音乐的区别，论文因为不大会对音乐进行赏析得分估计也不高，最后喜提3.3……</p>
+<h2 id="大学英语四"><a href="#大学英语四" class="headerlink" title="大学英语四"></a>大学英语四</h2><p>因为某些神奇的原因，高考英语拉胯的我大一上就上了大英四。joy老师的课作业似乎特别少，老师似乎更注重课堂上的交流和讨论，总结来说体验还是很棒的。不出意料班上有很多大神，对刚抛出的问题就能立马产出一个很有逻辑的回答，口语也很native，让本人望尘莫及，<del>好在我们组水平并不是很强</del>。每次quiz前都会过一遍单词，最后正常考试，绩点也还行。</p>
+<h2 id="篮球中级班（1-0分体育课）"><a href="#篮球中级班（1-0分体育课）" class="headerlink" title="篮球中级班（1.0分体育课）"></a>篮球中级班（1.0分体育课）</h2><p>本人从初中开始打篮球，来港后自然毫不犹豫地选了篮球课，抱着磨炼技术更多的是结交球友的心态。浙大的体育考核可谓十分复杂，不仅有网上智慧树，著名的12分钟跑，更奇葩的是由于疫情篮球的投篮竟然改成一篇小作文（<del>真是无力吐槽</del>）由于对篮球的热爱，即使这门课在周一早八，还是挺有收获的，金老师训练内容虽然多，但人还是非常好说话的。我最后一个月一直没法到课，老师一直很耐心地帮我补考，最后也差点满了……<br>多嘴一句，嘉年华是个好东西，听说随便水水就能拿两分，两分可能就是一档绩点啊。</p>
+<h2 id="万物运行的奥秘（1-5学分通识）"><a href="#万物运行的奥秘（1-5学分通识）" class="headerlink" title="万物运行的奥秘（1.5学分通识）"></a>万物运行的奥秘（1.5学分通识）</h2><p>冬学期的一门通识课，由物理系的张寒洁老师授课。听着这正经的名字，其实这是一门相声课，老师几百Mb的ppt其实是由一个大标题加无数搞笑图片组成的。课程无比轻松，体验极其舒适。上课从不点名，想听就听，唯一的作业是写篇文章来写周围感兴趣的物理现象，考试是全英文（但可以带字典和历年卷），总体大家差不多，学过高中物理应该不会差到哪里去。本人作业很随意，考试也是当天下午才打印的资料，最后给分很好。<br><del>谁能想到时间花得最少的课既然绩点最高呢</del></p>
+<h2 id="职业规划"><a href="#职业规划" class="headerlink" title="职业规划"></a>职业规划</h2><p>冬学期的课，也是这学期上过最愉快的课。认识了几个有趣的灵魂，最后的给分特别好，拿了4.5。唯一的缺点就是事情有点多，大作业5000+字加上最后的期末情景剧展示，两个任务都压在期末可真是要命，简直火葬场。<del>再也不拖ddl了</del>。但其实课程内容还是很有趣的，不像思修那么无趣。期间老师还请到了两个优秀学长来分享经验。总之，这门课让我学到了很多东西，认识了很多朋友，给分还巨好，太好了吧。</p>
+<h2 id="大计基"><a href="#大计基" class="headerlink" title="大计基"></a>大计基</h2><p>不是需要码代码的专业上的计算机课，知识点很多且杂，看完后对计算机会有一个很好地认识，但因为涉猎的太多所以都是浅尝辄止。学习方法就是上课想干嘛干嘛，但不要漏下作业，期末前花时间刷点题和看书就行。（后来听说可以用c小加c大替换大计基加任何一门语言，很遗憾刚进来的时候不知道，建议有志于提高码力的同学这样选）最后91分上岸</p>
+<h2 id="数学分析1-（5学分）"><a href="#数学分析1-（5学分）" class="headerlink" title="数学分析1 （5学分）"></a>数学分析1 （5学分）</h2><p>大一数院的两名大课之一。总体学习难度比高等代数低，前几张比较难，有很多大的定理，后面导数和积分还是比较简单的，我的老师莫群上课比较慢，写的符号比较乱，所以上课不是在玩手机就是自己看看书。（但前几章我自己看有点吃力）虽然学习难度不是很大，但不知为啥考试的很多题我都做不出来，<del>绩点就不说了</del>.</p>
+<h2 id="高等代数与解析几何1-（5学分）"><a href="#高等代数与解析几何1-（5学分）" class="headerlink" title="高等代数与解析几何1 （5学分）"></a>高等代数与解析几何1 （5学分）</h2><p>又一门大课……我们这一届改革把几何学和代数合在一起，其实学了之后发现确实有联系（解析几何里的一些性质都是用矩阵来描述）但教学过程一会教几何一会教代数就感觉很乱……这门课也是我大一上学的最吃力的一门（当然与上课经常摸鱼逃不开关系），里面有很多小的知识点，解题的时候也是计算量与思维并存，期中考前进行了较多的复习加上卷子比较简单拿了一个挺好的分数，期末考直接打回原形……最后绩点凄惨。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/23/%E5%A4%A7%E4%B8%80%E4%B8%8A%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/" data-id="clb0zvtyu000dkctogoqm0ydt" data-title="大一上课程总结" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-一次校赛回忆" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/" class="article-date">
+  <time class="dt-published" datetime="2022-05-23T15:11:28.000Z" itemprop="datePublished">2022-05-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&总结</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/">一次校赛回忆</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="校赛回忆"><a href="#校赛回忆" class="headerlink" title="校赛回忆"></a>校赛回忆</h1><h3 id="前前言："><a href="#前前言：" class="headerlink" title="前前言："></a>前前言：</h3><p>个人是一个很爱记录的人，校赛打完先狂玩了两天，不写点什么东西不是我的风格，遂有了这篇文章。</p>
+<h3 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h3><p>这次组队过程可以说特别神奇。开赛前三个人都不认识，因为一些神奇的事情走到了一起。脑子一热不顾5月份堆积如山的ddl就报名了。既然报了名，那也就一起上贼船了喽。我先是东学学西学学，一抬头发现已经到了开赛的日期，于是硬着头皮就上了。</p>
+<h3 id="正文（流水账警告）"><a href="#正文（流水账警告）" class="headerlink" title="正文（流水账警告）"></a>正文（<del>流水账警告</del>）</h3><p>原先看过去年的题目，不过今年的题目还是挺出乎我的意料。下面这个A题啥都没告诉我们，感觉基本没人选，好在这样就免去了选题的烦恼。<del>选择苦难症狂喜</del></p>
+<p><img src="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/1.png"></p>
+<p>题目定下来只能硬着头皮上呗。B题出的十分新颖，让我对出题人充满敬意。看起来是个普通的TSP问题，但深究好像又有点奇怪。</p>
+<p>在激烈的讨论很久以后，我们发现自己果然还是太菜了，本来想做一个TSP的变式却死活写不出code，最后只能妥协做一个简单的TSP，我写的代码大部分都是参考网上的轮子……</p>
+<p>这样第一问算是完美“解决”了。剩下几问在我们的讨论下也初步有了方案（不得不承认线下讨论真的比线上高不知几倍……）</p>
+<p>大家在丹青的洗衣房度过了愉（头）快（秃）的一晚上</p>
+<img src="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/2.png" style="zoom:33%;">
+
+<p>接下来的code 主要是由zmgg写的，突然发现这两次比赛队里都有一个MATLAB大佬来carry很多工作（顺便吐槽一下个人觉得MATLAB是一个很反人类的软件……界面丑不说，语法还十分蹩脚，当然只是个人观点……）</p>
+<p>另外最让我们头疼的事就是提取题目发的PDF并去重，意想不到的是原先瞎学的pandas竟然神奇的派上了用处。一个人肝了将近一下午终于很完美的完成了这部分的任务，<del>让我高兴得忘记了吃饭</del>。</p>
+<p>最后就是写论文了。粗心的我竟然记错了ddl，好在队友及时在某个教室把发呆的我拉回到现实。接着就是数模比赛的惯例，大家一起去北街熬了个夜，我依旧像上次一样，在同一家咖啡馆里，合着苦的直击心灵的茶，对着latex文档掉了一晚上头发。</p>
+<img src="/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/3.png" style="zoom:33%;">
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>回头来看，这次比赛相比寒假的美赛，少了一份热情，多了一份成熟。但还是收获颇丰。</p>
+<p>首先是我找回了很久以前那种专注的状态，高中的时候经常能对着一个问题思考很久，还经常和人讨（争）论（吵）。上了大学以后遇到难的东西只期望互联网的某个角落能有我想要的答案。而在这次校赛期间，我们想了很多思路来做第一题（然后是不断的推翻），某天晚上我躺在床上准备睡觉的时候，脑子里突然有了灵感，遂赶紧爬起来写下来（虽然在之后又被推翻），总之我颇有点震惊于三个人居然能想出这么多点子，也发现自己原来还是有点用的（雾）。</p>
+<p>另外还有很多想说的。比如发现似乎自己在组织这类讨论上似乎很有“天赋”，比如意识到以前瞎学的知识竟然有一天能发挥作用，比如认识了两个颇有趣的灵魂。</p>
+<p><strong>青山依旧在，几度夕阳红</strong></p>
+<p><strong>古今多少事，都付笑谈中</strong></p>
+<p>——谨以此篇浅浅记录一段有趣的校赛经历。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/23/%E4%B8%80%E6%AC%A1%E6%A0%A1%E8%B5%9B%E5%9B%9E%E5%BF%86/" data-id="clb0zvtyt000akctoc3dcbdjx" data-title="一次校赛回忆" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-TSP" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/14/TSP/" class="article-date">
+  <time class="dt-published" datetime="2022-05-14T10:06:33.000Z" itemprop="datePublished">2022-05-14</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/CS/">CS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/14/TSP/">TSP</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="TSP问题"><a href="#TSP问题" class="headerlink" title="TSP问题"></a>TSP问题</h1><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>旅行商问题（Travelling salesman problem），只在平面上给定一系列城市的坐标，有一个旅行商要从其中一个城市出发，经过所有城市后再回到起点。求问怎么走使总路程最短？</p>
+<p>这个是图论里的著名问题，而且是NP-hard问题，一般会用各种启发式算法去寻找解（能最大概率地找到最优解）</p>
+<p>我在数模建模的时候遇到了这个问题，下面选用<strong>遗传算法</strong> x <strong>Python</strong>来实现。</p>
+<h3 id="一个例子"><a href="#一个例子" class="headerlink" title="一个例子"></a>一个例子</h3><p>已知平面上有下列点，求问怎么走使总路程最短？</p>
+<p><img src="/2022/05/14/TSP/%E6%97%A0%E8%B7%AF%E7%BA%BF%E6%95%A3%E7%82%B9.png"></p>
+<h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="/2022/05/14/TSP/%E6%9C%80%E7%BB%88%E8%B7%AF%E7%BA%BF.png"></p>
+<p><strong>寻得的最佳路线是：</strong></p>
+<p>1–&gt;4–&gt;6–&gt;5–&gt;3–&gt;2–&gt;11–&gt;10–&gt;9–&gt;8–&gt;7–&gt;1</p>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> floor</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt <span class="comment">#导入所需要的库</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 输入数据</span></span><br><span class="line"><span class="comment"># 这里加入了一个(0,0)为起点（最后也回到这个点）</span></span><br><span class="line">data = np.array([<span class="number">0</span>,<span class="number">0</span>,<span class="number">10</span>,<span class="number">135.5</span>,<span class="number">30</span>,<span class="number">112.5</span>,<span class="number">30</span>,<span class="number">87.5</span>,</span><br><span class="line">    <span class="number">50</span>,<span class="number">112.5</span>,<span class="number">50</span>,<span class="number">87.5</span>,<span class="number">50</span>,<span class="number">37.5</span>,<span class="number">110</span>,<span class="number">62.5</span>,</span><br><span class="line">    <span class="number">190</span>,<span class="number">62.5</span>,<span class="number">190</span>,<span class="number">162.5</span>,<span class="number">190</span>,<span class="number">187.5</span>]).reshape(<span class="number">11</span>,<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Gena_TSP</span>(<span class="title class_ inherited__">object</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self,data,maxgen=<span class="number">300</span>,size_pop=<span class="number">200</span>,cross_prob=<span class="number">0.9</span>,pmuta_prob=<span class="number">0.01</span>,select_prob=<span class="number">0.8</span></span>):</span><br><span class="line">        self.maxgen = maxgen <span class="comment">#最大迭代次数</span></span><br><span class="line">        self.size_pop = size_pop  <span class="comment">#群体个数</span></span><br><span class="line">        self.cross_prob = cross_prob <span class="comment">#交叉概率</span></span><br><span class="line">        self.pmuta_prob = pmuta_prob <span class="comment">#变异概率</span></span><br><span class="line">        self.select_prob = select_prob <span class="comment">#选择概率</span></span><br><span class="line">        </span><br><span class="line">        self.data = data   <span class="comment">#城市的左边数据</span></span><br><span class="line">        self.num =<span class="built_in">len</span>(data) <span class="comment">#城市个数 对应染色体长度</span></span><br><span class="line">        </span><br><span class="line">        self.matrix_distance = self.matrix_dis() </span><br><span class="line">       <span class="comment">#距离矩阵n*n, 第[i,j]个元素表示城市i到j距离matrix_dis函数见下文</span></span><br><span class="line">        </span><br><span class="line">        self.select_num = <span class="built_in">max</span>(floor(self.size_pop*self.select_prob+<span class="number">0.5</span>),<span class="number">2</span>) </span><br><span class="line">       <span class="comment">#通过选择概率确定子代的选择个数</span></span><br><span class="line"></span><br><span class="line">        self.chrom = np.array([<span class="number">0</span>]*self.size_pop*self.num).reshape(self.size_pop,self.num)</span><br><span class="line">        self.sub_sel = np.array([<span class="number">0</span>]*self.select_num*self.num).reshape(self.select_num,self.num)</span><br><span class="line">        <span class="comment">#父代和子代群体的初始化（不直接用np.zeros是为了保证单个染色体的编码为整数，np.zeros对应的数据类型为浮点型）   </span></span><br><span class="line">        </span><br><span class="line">        self.fitness = np.zeros(self.size_pop)</span><br><span class="line">        <span class="comment">#存储群体中每个染色体的路径总长度，对应单个染色体的适应度就是其倒数</span></span><br><span class="line"></span><br><span class="line">        self.best_fit = []</span><br><span class="line">        self.best_path= []</span><br><span class="line">        <span class="comment">#保存每一步的群体的最优路径和距离</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">matrix_dis</span>(<span class="params">self</span>):</span><br><span class="line">        res = np.zeros((self.num,self.num))</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(self.num):</span><br><span class="line">            <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(i+<span class="number">1</span>,self.num):</span><br><span class="line">                res[i,j] = np.linalg.norm(self.data[i,:]-self.data[j,:])</span><br><span class="line">                res[j,i] = res[i,j]</span><br><span class="line">        <span class="keyword">return</span> res</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">rand_chrom</span>(<span class="params">self</span>):</span><br><span class="line">            rand_ch = np.array(<span class="built_in">range</span>(self.num))</span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(self.size_pop):</span><br><span class="line">                np.random.shuffle(rand_ch)</span><br><span class="line">                self.chrom[i,:]= rand_ch</span><br><span class="line">                self.fitness[i] = self.comp_fit(rand_ch)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 计算单个染色体的路径距离值，可利用该函数更新self.fittness</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">comp_fit</span>(<span class="params">self, one_path</span>):</span><br><span class="line">        res = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(self.num-<span class="number">1</span>):</span><br><span class="line">            res += self.matrix_distance[one_path[i],one_path[i+<span class="number">1</span>]]</span><br><span class="line">        res += self.matrix_distance[one_path[-<span class="number">1</span>],one_path[<span class="number">0</span>]]</span><br><span class="line">        <span class="keyword">return</span> res</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">out_path</span>(<span class="params">self, one_path</span>):</span><br><span class="line">        res = <span class="built_in">str</span>(one_path[<span class="number">0</span>]+<span class="number">1</span>)+<span class="string">&#x27;--&gt;&#x27;</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, self.num):</span><br><span class="line">            res += <span class="built_in">str</span>(one_path[i]+<span class="number">1</span>)+<span class="string">&#x27;--&gt;&#x27;</span></span><br><span class="line">        res += <span class="built_in">str</span>(one_path[<span class="number">0</span>]+<span class="number">1</span>)+<span class="string">&#x27;\n&#x27;</span></span><br><span class="line">        <span class="built_in">print</span>(res)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">select_sub</span>(<span class="params">self</span>):</span><br><span class="line">        fit = <span class="number">1.</span>/(self.fitness) <span class="comment">#适应度函数</span></span><br><span class="line">        cumsum_fit = np.cumsum(fit)</span><br><span class="line">        pick = cumsum_fit[-<span class="number">1</span>]/self.select_num*(np.random.rand()+np.array(<span class="built_in">range</span>(self.select_num)))</span><br><span class="line">        i,j = <span class="number">0</span>,<span class="number">0</span></span><br><span class="line">        index = []</span><br><span class="line">        <span class="keyword">while</span> i&lt;self.size_pop <span class="keyword">and</span> j&lt;self.select_num:</span><br><span class="line">            <span class="keyword">if</span> cumsum_fit[i]&gt;= pick[j]:</span><br><span class="line">                index.append(i)</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                i += <span class="number">1</span></span><br><span class="line">        self.sub_sel = self.chrom[index,:]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">cross_sub</span>(<span class="params">self</span>):</span><br><span class="line">            <span class="keyword">if</span> self.select_num%<span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">                num = <span class="built_in">range</span>(<span class="number">0</span>,self.select_num,<span class="number">2</span>)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                num = <span class="built_in">range</span>(<span class="number">0</span>,self.select_num-<span class="number">1</span>,<span class="number">2</span>)</span><br><span class="line">            <span class="keyword">for</span> i <span class="keyword">in</span> num:</span><br><span class="line">                <span class="keyword">if</span> self.cross_prob&gt;=np.random.rand():</span><br><span class="line">                    self.sub_sel[i,:],self.sub_sel[i+<span class="number">1</span>,:] = self.intercross(self.sub_sel[i,:],self.sub_sel[i+<span class="number">1</span>,:])</span><br><span class="line">                    </span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">intercross</span>(<span class="params">self,ind_a,ind_b</span>):</span><br><span class="line">                r1 = np.random.randint(self.num)</span><br><span class="line">                r2 = np.random.randint(self.num)</span><br><span class="line">                <span class="keyword">while</span> r2 == r1:</span><br><span class="line">                    r2 = np.random.randint(self.num)</span><br><span class="line">                left,right = <span class="built_in">min</span>(r1,r2),<span class="built_in">max</span>(r1,r2)</span><br><span class="line">                ind_a1 = ind_a.copy()</span><br><span class="line">                ind_b1 = ind_b.copy()</span><br><span class="line">                <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(left,right+<span class="number">1</span>):</span><br><span class="line">                    ind_a2 = ind_a.copy()</span><br><span class="line">                    ind_b2 = ind_b.copy()</span><br><span class="line">                    ind_a[i] = ind_b1[i] </span><br><span class="line">                    ind_b[i] = ind_a1[i]</span><br><span class="line">                    x = np.argwhere(ind_a==ind_a[i])</span><br><span class="line">                    y = np.argwhere(ind_b==ind_b[i])</span><br><span class="line">                    <span class="keyword">if</span> <span class="built_in">len</span>(x) == <span class="number">2</span>:</span><br><span class="line">                        ind_a[x[x!=i]] = ind_a2[i]</span><br><span class="line">                    <span class="keyword">if</span> <span class="built_in">len</span>(y) == <span class="number">2</span>:</span><br><span class="line">                        ind_b[y[y!=i]] = ind_b2[i]</span><br><span class="line">                <span class="keyword">return</span> ind_a,ind_b</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">mutation_sub</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(self.select_num):</span><br><span class="line">            <span class="keyword">if</span> np.random.rand() &lt;= self.cross_prob:</span><br><span class="line">                r1 = np.random.randint(self.num)</span><br><span class="line">                r2 = np.random.randint(self.num)</span><br><span class="line">                <span class="keyword">while</span> r2 == r1:</span><br><span class="line">                    r2 = np.random.randint(self.num)</span><br><span class="line">                self.sub_sel[i,[r1,r2]] = self.sub_sel[i,[r2,r1]]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">reverse_sub</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(self.select_num):</span><br><span class="line">            r1 = np.random.randint(self.num)</span><br><span class="line">            r2 = np.random.randint(self.num)</span><br><span class="line">            <span class="keyword">while</span> r2 == r1:</span><br><span class="line">                r2 = np.random.randint(self.num)</span><br><span class="line">            left,right = <span class="built_in">min</span>(r1,r2),<span class="built_in">max</span>(r1,r2)</span><br><span class="line">            sel = self.sub_sel[i,:].copy()</span><br><span class="line">            </span><br><span class="line">            sel[left:right+<span class="number">1</span>] = self.sub_sel[i,left:right+<span class="number">1</span>][::-<span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> self.comp_fit(sel) &lt; self.comp_fit(self.sub_sel[i,:]):</span><br><span class="line">                self.sub_sel[i,:] = sel</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">reins</span>(<span class="params">self</span>):</span><br><span class="line">        index = np.argsort(self.fitness)[::-<span class="number">1</span>]</span><br><span class="line">        self.chrom[index[:self.select_num],:] = self.sub_sel</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>(<span class="params">data</span>):</span><br><span class="line">    Path_short = Gena_TSP(data) <span class="comment">#根据位置坐标，生成一个遗传算法类</span></span><br><span class="line">    Path_short.rand_chrom()  <span class="comment">#初始化父类</span></span><br><span class="line"></span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">    <span class="comment">#循环迭代遗传过程</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(Path_short.maxgen):</span><br><span class="line">        Path_short.select_sub()   <span class="comment">#选择子代</span></span><br><span class="line">        Path_short.cross_sub()    <span class="comment">#交叉</span></span><br><span class="line">        Path_short.mutation_sub() <span class="comment">#变异</span></span><br><span class="line">        Path_short.reverse_sub()  <span class="comment">#进化逆转</span></span><br><span class="line">        Path_short.reins()        <span class="comment">#子代插入</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">#重新计算新群体的距离值</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(Path_short.size_pop):</span><br><span class="line">            Path_short.fitness[j] = Path_short.comp_fit(Path_short.chrom[j,:])</span><br><span class="line">         </span><br><span class="line">        <span class="comment">#每隔一百步显示当前群体的最优路径</span></span><br><span class="line">        index = Path_short.fitness.argmin()</span><br><span class="line">        <span class="keyword">if</span> (i+<span class="number">1</span>)%<span class="number">100</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;第&#x27;</span>+<span class="built_in">str</span>(i+<span class="number">1</span>)+<span class="string">&#x27;步后的最短的路程: &#x27;</span>+<span class="built_in">str</span>( Path_short.fitness[index]))</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&#x27;第&#x27;</span>+<span class="built_in">str</span>(i+<span class="number">1</span>)+<span class="string">&#x27;步后的最优路径:&#x27;</span>)</span><br><span class="line">            Path_short.out_path(Path_short.chrom[index,:])<span class="comment"># 显示每一步的最优路径</span></span><br><span class="line">        </span><br><span class="line">        <span class="comment">#存储每一步的最优路径及距离</span></span><br><span class="line">        Path_short.best_fit.append(Path_short.fitness[index])</span><br><span class="line">        Path_short.best_path.append(Path_short.chrom[index,:])</span><br><span class="line">    </span><br><span class="line">    <span class="comment">## 绘制初始化的路径图</span></span><br><span class="line">    fig,ax=plt.subplots()</span><br><span class="line">    x = data[:,<span class="number">0</span>]</span><br><span class="line">    y = data[:,<span class="number">1</span>]</span><br><span class="line">    plt.xlim(<span class="number">0</span>,<span class="number">300</span>)</span><br><span class="line">    plt.ylim(<span class="number">0</span>,<span class="number">200</span>)</span><br><span class="line">    plt.xticks([<span class="number">0</span>,<span class="number">20</span>,<span class="number">40</span>,<span class="number">60</span>,<span class="number">80</span>,<span class="number">100</span>,<span class="number">120</span>,<span class="number">140</span>,<span class="number">160</span>,<span class="number">180</span>,<span class="number">200</span>,<span class="number">220</span>,<span class="number">240</span>,<span class="number">260</span>,<span class="number">280</span>,<span class="number">300</span>])</span><br><span class="line">    plt.yticks([<span class="number">0</span>,<span class="number">25</span>,<span class="number">50</span>,<span class="number">75</span>,<span class="number">100</span>,<span class="number">125</span>,<span class="number">150</span>,<span class="number">175</span>,<span class="number">200</span>,<span class="number">225</span>,<span class="number">250</span>,<span class="number">275</span>,<span class="number">300</span>])</span><br><span class="line">    ax.scatter(x, y,linewidths=<span class="number">0.1</span>)</span><br><span class="line">    <span class="keyword">for</span> i,txt <span class="keyword">in</span> <span class="built_in">enumerate</span>(<span class="built_in">range</span>(<span class="number">1</span>,<span class="built_in">len</span>(data)+<span class="number">1</span>)):</span><br><span class="line">        ax.annotate(txt,(x[i],y[i]))</span><br><span class="line">    res0 = Path_short.chrom[<span class="number">0</span>]</span><br><span class="line">    x0 = x[res0]</span><br><span class="line">    y0 = y[res0]</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(data)-<span class="number">1</span>):</span><br><span class="line">        plt.quiver(x0[i], y0[i],x0[i+<span class="number">1</span>]-x0[i], y0[i+<span class="number">1</span>]-y0[i], color=<span class="string">&#x27;r&#x27;</span>, width=<span class="number">0.005</span>,angles=<span class="string">&#x27;xy&#x27;</span>,scale=<span class="number">1</span>, scale_units=<span class="string">&#x27;xy&#x27;</span>)  </span><br><span class="line">    plt.quiver(x0[-<span class="number">1</span>], y0[-<span class="number">1</span>],x0[<span class="number">0</span>]-x0[-<span class="number">1</span>], y0[<span class="number">0</span>]-y0[-<span class="number">1</span>], color=<span class="string">&#x27;r&#x27;</span>, width=<span class="number">0.005</span>,angles=<span class="string">&#x27;xy&#x27;</span>,scale=<span class="number">1</span>, scale_units=<span class="string">&#x27;xy&#x27;</span>)</span><br><span class="line">    plt.grid()</span><br><span class="line">    plt.show()</span><br><span class="line">    <span class="comment"># print(&#x27;初始染色体的路程: &#x27;+str( Path_short.fitness[0]))</span></span><br><span class="line">    <span class="keyword">return</span> Path_short  <span class="comment">#返回遗传算法结果类</span></span><br><span class="line"></span><br><span class="line">main(data)</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/14/TSP/" data-id="clb0zvtyr0006kctodp4scebm" data-title="TSP" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/CS/">CS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux/">Linux</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%9E%E5%BF%86-%E6%80%BB%E7%BB%93/">回忆&总结</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/11/">November 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/09/">September 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/">晚安短信Day2</a>
+          </li>
+        
+          <li>
+            <a href="/2022/11/28/%E6%89%98%E7%A6%8F%E5%9B%9E%E5%BF%86/">托福回忆</a>
+          </li>
+        
+          <li>
+            <a href="/2022/09/04/2022%E6%9A%91%E5%81%87%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%80%BB%E7%BB%93/">2022暑假不完全总结</a>
+          </li>
+        
+          <li>
+            <a href="/2022/06/23/%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B/">笔记软件评测</a>
+          </li>
+        
+          <li>
+            <a href="/2022/06/04/%E7%BD%91%E7%AB%99%E3%81%AE%E9%A3%9F%E7%94%A8%E6%89%8B%E5%86%8C/">网站の食用手册</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 Frank<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
