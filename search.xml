@@ -17,69 +17,11 @@
     
     
     <entry>
-      <title>拍摄日记2</title>
-      <link href="/2023/06/11/%E6%8B%8D%E6%91%84%E6%97%A5%E8%AE%B02/"/>
-      <url>/2023/06/11/%E6%8B%8D%E6%91%84%E6%97%A5%E8%AE%B02/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/2023/06/11/%E6%8B%8D%E6%91%84%E6%97%A5%E8%AE%B02/Users\阿漆\AppData\Roaming\Typora\typora-user-images\image-20230611164018177.png" alt="image-20230611164018177"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>拍摄日记1</title>
-      <link href="/2023/05/21/%E6%8B%8D%E6%91%84%E6%97%A5%E8%AE%B01/"/>
-      <url>/2023/05/21/%E6%8B%8D%E6%91%84%E6%97%A5%E8%AE%B01/</url>
-      
-        <content type="html"><![CDATA[<p>5&#x2F;28天朗气清，是个拍延时的好时节。遂带着奶酪送的nd1000爬到东四楼顶拍晚霞。延时懒的后期，几张长曝光还是挺成功的~</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/90952bbe280c7da6feb4bda6331b93d.jpg" alt="90952bbe280c7da6feb4bda6331b93d"></p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/1808ec4c3bf9f77e39207aa4eb030f9.jpg" alt="1808ec4c3bf9f77e39207aa4eb030f9"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 光影留痕 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Git设置</title>
       <link href="/2022/12/15/Git%E8%AE%BE%E7%BD%AE/"/>
       <url>/2022/12/15/Git%E8%AE%BE%E7%BD%AE/</url>
       
         <content type="html"><![CDATA[<h1 id="Git设置"><a href="#Git设置" class="headerlink" title="Git设置"></a>Git设置</h1><blockquote><p>Git虽然强大，但个人感觉学习曲线还是很陡峭的……</p></blockquote><p>有时候我们用开了clash挂好了梯子，但还是经常出现git push显示<code>time out </code>的情况，原先我一直觉得是我的梯子不稳定，知道有一天我写好了文章却一晚上都<code>hexo d </code>不上去，于是花了点时间解决了一下。目前为之git的各项操作都畅通无阻，还没出现问题。</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221215120627765.png" alt="image-20221215120627765"></p><p>首先<strong>clash</strong>开放的是7890端口，我的git走的是https上传，但git的https却没有走这里，所以我们通过：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br><span class="line"></span><br><span class="line">git config --global https.proxy https://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p>把git的代理改成clash的端口，改完了可以<code>git config -l</code>看看：</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221215121643334.png" alt="image-20221215121643334"></p><h3 id="PS："><a href="#PS：" class="headerlink" title="PS："></a>PS：</h3><p>注意clash这个A要关掉，clash默认随机开放端口的，会变来变去，要让他固定下来，然后让git走这个端口</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221215121721588.png" alt="image-20221215121721588"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>晚安短信Day3</title>
-      <link href="/2022/11/29/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day3/"/>
-      <url>/2022/11/29/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day3/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Google的晚安短信-Day3"><a href="#Google的晚安短信-Day3" class="headerlink" title="Google的晚安短信 Day3"></a>Google的晚安短信 Day3</h1><blockquote><p>昨天Google写完UP主推荐后其实还放了链接，但发现手机看PDF好像点击不了链接。</p><p>于是Google翻出了它空空如也的博客，却发现太久没用跑不起来了（恼!）</p><p>终于今天修好了，作为技术部特色整理了一下一些技术相关的笑话分享给大家~</p><p>最后补上昨天的几个视频（无聊可以看看）</p></blockquote><h2 id="冷笑话合集"><a href="#冷笑话合集" class="headerlink" title="冷笑话合集"></a>冷笑话合集</h2><p><strong>Q: why does you use black theme for coding?</strong></p><p><strong>A: because light attracts bugs.</strong></p><hr><p><strong>Q. why do java developers wear glasses?</strong></p><p><strong>A. Because they can’t C#.</strong></p><blockquote><p> 谐音梗扣钱</p></blockquote><hr><p><strong>悬崖边上放了一个 WARNING 的牌子，结果只有程序猿掉了下去</strong></p><blockquote><p>记得大一经常写Latex，每次都报一堆warning，被我删掉眼不见为净（乐）</p></blockquote><hr><p><strong>运动会上。</strong></p><p><strong>对方：“这次运动会，和你一起赛跑的有几个人？”</strong></p><p><strong>程序员：“0，1，2，3，4，5，6，7。有8个人。”</strong></p><blockquote><p>第一次接触编程时觉得索引从0开始很反人类，后来觉得某语言从1开始简直反人类。<br>没错，说的就是你，MATLAB！</p></blockquote><hr><p><strong>对一个程序员说：你的代码有bug。</strong></p><p><strong>他的第一反应是：1，你的环境有问题吧；2，傻逼你会用吗。</strong></p><p><strong>如果你委婉地说：你这个程序和预期的有点不一致，你看看是不是我的使用方法有问题。他本能地会想：操，是不是出bug了！</strong></p><hr><p><strong>问：如何生成一个随机的字符串？答：让新手退出VIM。</strong></p><blockquote><p>VIM大法好</p></blockquote><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/v2-72838d27fb7f18c281f0b877dca9d34a_1440w.webp" alt="img" style="zoom:43%;"><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221129221310720.png" alt="image-20221129221310720" style="zoom: 33%;"><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221129221407571.png" alt="image-20221129221407571" style="zoom: 67%;"><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/v2-f773a72af5643773ef6df3b92e3a8d79_b.jpg" alt="img" style="zoom:50%;"><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/8ac3a8bb58d807876f073184404b9108_r.jpg" alt="img" style="zoom: 57%;"><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/252b81236746cb8b1d48eefe26ab1bf8_1440w.webp" alt="img"></p><h3 id="最后带来一些可以有意思的视频"><a href="#最后带来一些可以有意思的视频" class="headerlink" title="最后带来一些可以有意思的视频"></a>最后带来一些可以有意思的视频</h3><p><a href="https://www.bilibili.com/video/BV1q8411W7GJ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">带你回到紫金港的夏天！</a></p><p><a href="https://www.bilibili.com/video/BV1BA411E7JQ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">看一次燃一次的求是潮宣传片</a></p><p><a href="https://www.bilibili.com/video/BV13V4y1j7jr/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">Google又开始整活了</a></p><h3 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h3><p>明天继续降温，继续下雨，各位要注意保暖哦~</p><p>（有条件出门的别忘记带伞）</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>晚安短信Day2</title>
-      <link href="/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/"/>
-      <url>/2022/11/28/%E6%99%9A%E5%AE%89%E7%9F%AD%E4%BF%A1Day2/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Google的晚安短信-Day2"><a href="#Google的晚安短信-Day2" class="headerlink" title="Google的晚安短信 Day2"></a>Google的晚安短信 Day2</h1><blockquote><p>今天的Google终于在外面安定下来，住在亲戚家里。看着zjg转运车排成一队的照片有点恐怖。几个关系好的朋友不是封楼就是已经被转运了，这次是Google进校以来最大的疫情了，希望各位潮人保重~</p></blockquote><p>Day2按潮的照例是情史部分……虽然感觉跟一堆不认识的人讲emmm有点奇怪?（反正也没人看x</p><p>Google高中的时候有一段感情经历，给十分难熬的高三生活带来了一点希望。（话说高三的作息是真的阳间，现在是晚上9:30，也是Google高中的寝室熄灯熄话时间）。后来高考完暑假里因为一些事情差不多分了，然后魔幻的是虽然分数差了好多，但最后居然两个人都考到了浙大。但最后也没什么联系了。</p><p>大一的Google自信的只面了一个社团但被无情拒绝，虽然Google并不是特别内向，整个大一Google认识的人并不多，大部分时候都是跟高中同学一起玩（这也是为什么在课程繁忙的大二还来了潮！）大一暑假在班级轰趴上认识了现在的npy，现在也是在一起啦。</p><blockquote><p>唔……有点不知道说什么了？</p></blockquote><p>好了，从Cipher那里找到了灵感，就来整理&#x2F;推荐一下我关注的UP主把~</p><p><strong>技术类：</strong></p><p>既然是技术部，当然离不开技术类UP！</p><p>（PS: 第一位是三本校友哦~）</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128215517429.png"></p><p><strong>搞笑类</strong></p><p>搞笑类大多来自好多不同的UP？这里就放三个大V吧~</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128215811279.png" alt="image-20221128215811279"></p><p><strong>生活类</strong></p><p>Google一个人吃饭的时候会不觉的开始刷B站。这些生活类Up可以带潮人放松一下~</p><p><img src="https://frank-first.oss-cn-hangzhou.aliyuncs.com/images/image-20221128221708116.png" alt="image-20221128221708116"></p><p><strong>最后放几个视频吧</strong></p><p><a href="https://www.bilibili.com/video/BV1q8411W7GJ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">带你回到紫金港的夏天！</a></p><p><a href="https://www.bilibili.com/video/BV1BA411E7JQ/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">看一次燃一次的求是潮宣传片</a></p><p><a href="https://www.bilibili.com/video/BV13V4y1j7jr/?spm_id_from=333.999.0.0&vd_source=7dcda248e16142ad5a30747514b5afce">Google又开始整活了</a></p><h4 id="天气"><a href="#天气" class="headerlink" title="天气"></a>天气</h4><p>明天依旧下雨，气温开始断崖式下跌，大家注意保暖哦~</p>]]></content>
       
       
       
